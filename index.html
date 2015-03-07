@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<title>Demo Page</title>
+<script src="bower_components/webcomponentsjs/webcomponents.js"> </script>
+<link rel="import" href="custom-ulli.html">
+</head>
+<body>
+<div class="center">
+  <h6 >Model</h6>
+</div>
+  <div class="row s6 m3 l3">
+    <custom-ulli ></custom-ulli>
+    </ul>
+  </div>
+<div id="selectvalues"></div>
+<script>	
+	document.querySelector('custom-ulli').brand= [
+					 		{val: 'audi', name: 'Audi',models:[{val: 'a1', name: 'A1'},{val: 'a2', name: 'A2'},{val: 'a3', name: 'A3'}]},
+					  		{val: 'bMW', name: 'BMW',models:[{val: 'b1', name: 'B1'},{val: 'b2', name: 'B2'},{val: 'b3', name: 'B3'}]},
+					 		{val: 'ford', name: 'Ford',models:[{val: 'f1', name: 'F1'},{val: 'f2', name: 'F2'},{val: 'f3', name: 'F3'}]},
+					];	
+</script>
+</body>
+</html>

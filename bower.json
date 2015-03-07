@@ -1,0 +1,32 @@
+{
+  "name": "Multi selector",
+  "version": "1.0.0",
+  "main": "index.html",
+  "keywords": [
+  	"web-components",	
+    "multi selector",
+	"multi dropdown",
+	"select box",
+	"dual dropdown",
+	"dual dropbox",
+	"dependent dropdown",
+	"expandable selection tree",
+	"dual selector"
+  ],
+  "authors": [
+    "shubantech"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~0.5.5",
+    "paper-checkbox": "Polymer/paper-checkbox#~0.5.5"
+  }
+}

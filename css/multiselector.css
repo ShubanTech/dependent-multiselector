@@ -1,0 +1,38 @@
+body{ font-family:Verdana, Geneva, sans-serif; }
+  .disableul{
+			display:none;
+		}
+.Brand-type .selected{
+            background-color:#63F5EE;
+        }
+.Brand-type li {
+	list-style-type:none;
+            cursor:pointer;
+            padding:10px;
+            float:none;
+            border:1px #000000 thin;
+            min-width:50px;
+            background-color:rgba(0, 0, 0, 0.1);
+            margin:2px;
+font-family:Verdana, Geneva, sans-serif;
+			
+}
+
+custom-ulli .Brand-type li ul.Modeltype li{ background-color:inherit!important; }
+custom-ulli .Brand-type li label{ font-family:Verdana, Geneva, sans-serif; padding-left:5px; }
+.Modeltype li {
+	
+	list-style-type:none;
+	
+	list-style:none;
+            cursor:pointer;
+            padding:10px;
+            float:none;
+            border:1px #000000 thin;
+            min-width:50px;
+            background-color:inherit;
+            border-bottom:1px solid #fff;
+font-family:Verdana, Geneva, sans-serif;
+            margin:2px;
+}
+.Modeltype li:last-child{ border-bottom:none;}
