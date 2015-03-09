@@ -8,4 +8,4 @@ duel level multi selection drop down using ul li .
 
 `bower update`
 
-See the [component page](http://shubantechnologies.com/multiselector/) for complete demos.
+See the [component page](http://shubantechnologies.com/polymer/multiselector/) for complete demos.
